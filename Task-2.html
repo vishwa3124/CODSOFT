@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Vishwa's Portfolio</title>
+  <link rel="stylesheet" href="Task-2.css">
+</head>
+
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        Vishwa's Portfolio
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About me</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact me</a></li>
+          <ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="mainsection">
+      <div class="leftsection">
+        Hello, It's Me<span class="purple"> Vishwa</span>
+        <div>And I am
+          <span id="element"></span>
+        </div>
+      </div>
+      <div class="banner_image">
+        <img src="image.png" alt="">
+      </div>
+    </section>
+
+
+    <!-- About Me -->
+    <section class="about">
+      <div class="max-width">
+        <h2 class="txt">About Me</h2>
+        <div class="introduction">
+          
+          <div class="column right">
+            <div class="text">I'm Vishwa and I'm a <span class="typing-2"></span></div>
+            <p>an entry-level Web Developer looking for an esteemed organization where I can utilize my skills & enhance learning in the field of work. </p>
+            <br>
+            <div class="text">Why Work With Me</div>
+            <p>I'm a great communicator & love to invest the necessary time to understand the customer's problem very well.</p>
+            <div class="image ">
+              <img src="image.png" alt=" ">
+            </div>
+            <a href="#link" target="blank">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Graphic Designer','Web Designer','UX Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
